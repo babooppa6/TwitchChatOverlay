@@ -4,7 +4,7 @@
 *   video capturing software such as OBS (https://obsproject.com/).
 *
   /*  ========== CHANNEL TO JOIN ========== */
-  var channel = "mintygood";
+  var channel = "lakebird";
   /*Connection Details. Leave unchanged if connecting to twitch chat*/
   var port = 80;  // ports: 6667, 6697 - Note use port 80 on restrictive network
   var url = "ws://irc.twitch.tv";
@@ -14,6 +14,7 @@
 
   /*Filter Keywords: Will highlight in chat */
    keywordArray = ["lakebird", "@lakebird", "!important"];
+  /* Filtered users will not show up in on-screen chat */
    filteredUsers = [];
 
   function connect() {
