@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<!--
+    DONE - Create the javascript code for actually linking into a twitch chat.
+    DONE - Create a basic message styling.
+    DONE - Create an animation effect for the chat, when a user speaks.
+    TODO - Create an easier way to alter the chat settings such as:
+            - Look and feel.
+            - which channel the chat is listening to.
+            - Simple behavior modifications such as wheree chat anchors on the
+              page view.
+         - Potentially: USE COOKIES.
+    TODO - Create a JQuery GUI view to alter the css settings for the look and
+           feel of a message.
+    TODO - Enable Twitch emotes to display in chat. Should be some API to use.
+    Partially Done - Enable message highlighting based on keywords.
+    DONE - Filter messages based on usernames.
+           Usage Examples:
+                      Don't show bot messages on screen.
+                      Hide chat from "blacklisted" users who are untrustworthy.
+                      Show only chat from subscribers on-screen.
+    TODO - Language Filter: omit messages with excessive cursing or replace
+           certain swear-words with Kappa emotes. CensorKappa. Kappa.
+-->
+
+
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../include/chat-style.css" />
+    <script src="../scripts/jquery-2-min.js"></script>
+    <script src="../scripts/jquery-ui.min.js"></script>
+    <script src="../scripts/twitchChat.js"></script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td valign="bottom" id="target"></td>
+    </tr>
+  </table>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "ubuntu";
+  src: url("Ubuntu-M.ttf") format("truetype");
+  }
+
+* {
+  overflow: hidden;
+}
+
+body, html {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "ubuntu";
+}
+
+table {
+  height: 100%;
+  table-layout:fixed;
+}
+
+td {
+  height: 50%;
+  overflow: hidden;
+  table-layout:fixed;
+}
+
+body {
+  margin-right: 5px;
+}
+
+.messageContainer {
+  font-weight: 400;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 10px;
+  clear: both;
+  float: left;
+  margin: 3px;
+  padding: 4px;
+  left: -2000px;
+  background-color: rgba(25,118,210,0.7);
+  color: white;
+  font-size: 1em;
+  opacity: 1;
+  position: relative;
+  bottom: 0px;
+}
+
+.highlight {
+  background-color: rgba(233, 30, 99, 0.7);
+}
+
+
+.messageContainer .username
+{
+  color: #CDDC39; /* accent colour */
+  font-size: 1.2em;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-style:normal;
+}
